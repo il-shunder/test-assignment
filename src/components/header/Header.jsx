@@ -37,7 +37,7 @@ class Header extends Component {
                                 activeCurrency={this.props.activeCurrency}
                             />
                             <div className="header__logo">
-                                <NavLink to={`/${this.props.activeCurrency.label}/category/all`}>
+                                <NavLink to={`/${this.props.activeCurrency.label}/category/${this.props.categories[0]}`}>
                                     <img src={logo} alt="logo" />
                                 </NavLink>
                             </div>

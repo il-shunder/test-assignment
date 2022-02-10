@@ -18,7 +18,7 @@ export default class Categories extends Component {
                                     : "header-categories__item"
                             }
                             key={category}
-                            to={`${this.props.activeCurrency.label}/category/${category}`}
+                            to={`/${this.props.activeCurrency.label}/category/${category}`}
                         >
                             {category}
                         </NavLink>
